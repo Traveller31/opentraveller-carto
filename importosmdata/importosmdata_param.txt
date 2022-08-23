@@ -1,0 +1,19 @@
+# param file to be used as argument for createandimportcontours_v1.py
+# script to be run with 
+#    ./importosmdata_v1.py importosmdata_param.txt
+
+# hgt files
+GEOFABRIK_LIST = ./importosmdata_geofabriklist.txt
+
+# pgsql identification
+PGSQL_HOST = localhost
+PGSQL_PORT = 5432
+PGSQL_USER = otadmin
+PGSQL_PASSWORD = xxxxxxxx
+PGSQL_DB = gis2
+
+# osm2pgsql --number-processes  --> number of CPU cores on your server
+OSM2PGSQL_number-processes = 4
+
+# create new table and clear all data previously imported  (true | false -DEFAULT-)
+#CREATENEWTABLES = true
