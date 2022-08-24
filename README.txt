@@ -124,7 +124,7 @@ GEOFABRIK_LIST = ./importosmdata_geofabriklist.txt
 PGSQL_HOST = localhost
 PGSQL_PORT = 5432
 PGSQL_USER = otadmin
-PGSQL_PASSWORD = pwd98
+PGSQL_PASSWORD = xxxxxxxx
 PGSQL_DB = gis2
 
 # osm2pgsql --number-processes  --> number of CPU cores on your server
